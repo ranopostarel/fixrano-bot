@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import language_tool_python
 
 # Инициализация инструмента проверки языка
-lang_tool = language_tool_python.LanguageTool('ru-RU')
+lang_tool = language_tool_python.LanguageToolPublicAPI('ru-RU')
 
 # Включаем логирование
 logging.basicConfig(
